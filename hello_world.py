@@ -1,8 +1,9 @@
-def print_hello():
-    print("Hello World!!")
+def add(x, y):
+    a = x + y
+    return a
 
-def print_hello2():
-    print("안녕하세요 김태형입니다.")
+def print_KIT():
+    print("KIT")
 
 if __name__ == '__main__':
     print_hello()
